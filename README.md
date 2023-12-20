@@ -20,7 +20,8 @@ I designed and coded a responsive checkout page using HTML and CSS. The assignme
 
 ## Preview
 
-[Include screenshots or a link to a live demo if available.]
+- **`Design File`:** https://www.figma.com/file/Ri29ihrXO8PpEuCZGVbH8r/wp-pusher-checkout-(Copy)?type=design&node-id=3%3A2&mode=design&t=PH3Fyy5uZB3o9xZQ-1
+- **`Live Site`:** https://lazydoug.github.io/wp-pusher-checkout/
 
 ## Getting Started
 
