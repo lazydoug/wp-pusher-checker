@@ -1,6 +1,6 @@
 # Responsive Checkout Page Assignment
 
-This repository contains my implementation of a responsive checkout page, created as part of a web development assignment. The goal was to showcase proficiency in front-end development, with a specific focus on designing a user-friendly and visually appealing checkout experience.
+This repository contains my implementation of a responsive checkout page, created as part of my ALTSchool first semester assignment. The goal was to showcase proficiency in front-end development, with a specific focus on designing a user-friendly and visually appealing checkout experience.
 
 ## Assignment Overview
 
