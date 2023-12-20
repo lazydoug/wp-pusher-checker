@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato';
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 0 40px;
+}
+
+header > hr {
+  margin: 0;
+}
+
+nav {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav > ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin-left: 40px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+nav li:last-of-type {
+  border: 2px solid #646e7a;
+  border-radius: 6px;
+  padding: 12px 20px;
+}
+
+nav img {
+  height: 39px;
+  width: 200px;
+}
+
+main {
+  padding: 30px 40px;
+}
+
+main > div {
+  width: 70%;
+  min-width: 720px;
+  margin: 0 auto;
+}
+
+main > div > p {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #636b6f;
+  margin-top: 30px;
+}
+
+main > div > p span {
+  color: #31708f;
+}
+
+main > div > div {
+  display: flex;
+  box-shadow: 0 5px 15px #0000000d, 0 15px 35px #2b404e1a;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2 {
+  font-size: 30px;
+  text-shadow: 0 4px 4px #00000040;
+}
+
+h2,
+form > div:first-child,
+form > div:nth-child(3),
+form > div:last-child {
+  padding: 0 40px;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+h5 > span:first-child {
+  font-size: 24px;
+  font-weight: 700;
+  vertical-align: super;
+}
+
+h5 > span:last-child {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+form > div > div:first-child {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+form > div > div:first-child > div {
+  box-sizing: border-box;
+  border: 2px solid #548bc5;
+  border-radius: 15px;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  position: relative;
+}
+
+form > div > div:first-child span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+form > div:first-child > div:nth-of-type(2) {
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  margin-bottom: 7px;
+}
+
+form > div:first-child > div:nth-of-type(2) div {
+  flex: 1;
+}
+
+form > div:last-child {
+  text-align: center;
+}
+
+hr {
+  margin: 40px 0;
+  border: 2px solid #f5f7fa;
+}
+
+label {
+  display: block;
+  margin-bottom: 7px;
+}
+
+label[for='card'] + div {
+  display: flex;
+}
+
+label[for='card'] + div input {
+  flex: 0.3;
+  border-radius: 0;
+}
+
+label[for='card'] + div > input:first-child {
+  flex: 1;
+  border-radius: 4px 0 0 4px;
+}
+
+label[for='card'] + div > input:last-child {
+  border-radius: 0 4px 4px 0;
+}
+
+label[for='card'] + div input::placeholder {
+  text-align: center;
+}
+
+label[for='card'] + div > input:first-child::placeholder {
+  text-align: start;
+}
+
+input {
+  background-color: #edeff2;
+  height: 36px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 13px;
+}
+
+input[id='email'] {
+  width: 370px;
+}
+
+input:focus {
+  border: 2px solid #038e7d;
+  box-shadow: 0px 0px 0px 3px #2ec4b60f;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  height: 52px;
+  border-radius: 5px;
+  background-color: #038e7d;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button + div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0;
+}
+
+button + div > img {
+  margin-right: 10px;
+}
+
+button + div > p {
+  font-size: 14px;
+}
+
+button + div span:first-of-type {
+  font-weight: 700;
+}
+
+button + div span:last-of-type {
+  text-decoration: #646e7a underline;
+}
+
+::placeholder {
+  color: #646e7a;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+section:first-of-type {
+  flex: 4.5;
+  padding: 40px 0;
+}
+
+section:last-of-type {
+  min-width: 190px;
+  flex: 1.4;
+  background-color: #1179bf;
+  color: #fff;
+  padding: 40px;
+}
+
+section:last-of-type > div:first-child {
+  margin-bottom: 35px;
+}
+
+section:last-of-type > div:first-child > p {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+section:last-of-type ul {
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+section:last-of-type li {
+  background: url(./assets/tick.svg) left center no-repeat;
+  padding-left: 30px;
+}
+
+section:last-of-type ul span {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+section:last-of-type > div:nth-child(2) {
+  margin-bottom: 35px;
+}
+
+section:last-of-type > div:nth-child(3) > p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+section:last-of-type > div:nth-child(3) span {
+  font-weight: 700;
+}
+
+section:last-of-type > div:nth-child(3) span:last-child {
+  text-decoration: underline #b9f5ff;
+}
+
+section:last-of-type > div:nth-child(3) span:last-child > span {
+  font-style: italic;
+}
+
+section:last-of-type > hr {
+  border: 2px solid #ffffff33;
+}
+
+section:last-of-type > div:nth-child(5) > p {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+section:last-of-type > div:nth-child(5) span {
+  font-weight: 700;
+}
+
+section:last-of-type > div:nth-child(5) {
+  margin-bottom: 20px;
+}
+
+section:last-of-type > div:last-child {
+  display: flex;
+  align-items: center;
+}
+
+section:last-of-type > div:last-child > p {
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#menu-icon {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    min-width: 375px;
+    margin: 0;
+  }
+
+  nav > a > img {
+    width: 150px;
+    height: auto;
+  }
+
+  nav > ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #f5f7fa;
+    box-shadow: 0 5px 15px #0000000d, 0 15px 35px #2b404e1a;
+  }
+
+  nav li {
+    padding: 0 20px;
+    margin: 20px 0;
+  }
+
+  nav li:last-of-type {
+    background-color: #31708f;
+    border-radius: 0;
+    border: none;
+  }
+
+  nav li > a {
+    display: block;
+  }
+
+  main {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  main > div {
+    width: 100%;
+    max-width: 481px;
+    min-width: 80%;
+  }
+
+  main > div > div {
+    flex-direction: column-reverse;
+    box-shadow: none;
+    box-shadow: 0 5px 15px #0000000d, 0 15px 35px #2b404e1a;
+  }
+
+  section:last-of-type {
+    text-align: center;
+  }
+
+  section:last-of-type ul {
+    align-items: center;
+  }
+
+  section:last-of-type > div:last-child {
+    justify-content: center;
+  }
+
+  input[id='email'] {
+    width: 100%;
+  }
+
+  button + div {
+    align-items: start;
+  }
+
+  button + div > img {
+    margin-right: 0;
+  }
+
+  #menu-icon {
+    display: block;
+    width: 39px;
+  }
+
+  .menu-items.show {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  main > div > div {
+    border-radius: 0;
+    border-bottom: 2px solid #f5f7fa;
+    box-shadow: none;
+  }
+}
