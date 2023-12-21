@@ -91,6 +91,7 @@
                           id="card"
                           name="cardNumber"
                           placeholder="Card Number"
+                          title="16 digit card PAN"
                           pattern="^\d{16}$"
                           required />
                         <input
@@ -104,7 +105,8 @@
                           type="text"
                           name="cvv"
                           placeholder="CVV"
-                          pattern="[0-9]*"
+                          title="3 digit security code"
+                          pattern="^\1d{3}$"
                           required />
                       </div>
                     </fieldset>
