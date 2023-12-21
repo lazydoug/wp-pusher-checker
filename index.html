@@ -91,13 +91,14 @@
                           id="card"
                           name="cardNumber"
                           placeholder="Card Number"
-                          pattern="[0-9]*"
+                          pattern="^\d{16}$"
                           required />
                         <input
                           type="text"
                           name="expiryDate"
                           placeholder="MM/YY"
-                          pattern="[0-9]*"
+                          title="MM/YY"
+                          pattern="^\d{2}\/\d{2}$"
                           required />
                         <input
                           type="text"
